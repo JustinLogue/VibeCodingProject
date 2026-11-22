@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikorian Monster Manual</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="filters">
+
+    <label>CR</label>
+    <select id="crFilter">
+        <option value="">All</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="18">18</option>
+    </select>
+
+    <label>Size</label>
+    <select id="sizeFilter">
+        <option value="">All</option>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="Huge">Huge</option>
+        <option value="Gargantuan">Gargantuan</option>
+    </select>
+
+    <label>Type</label>
+    <select id="typeFilter">
+        <option value="">All</option>
+        <option value="Aberration">Aberration</option>
+        <option value="Beast">Beast</option>
+        <option value="Celestial">Celestial</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Humanoid">Humanoid</option>
+        <option value="Leviathan">Leviathan</option>
+        <option value="Monstrosity">Monstrosity</option>
+        <option value="Undead">Undead</option>
+    </select>
+
+    <button id="filterBtn">Filter</button>
+    <button id="showAllBtn">Show All</button>
+    <button id="clearBtn">Clear</button>
+
+</div>
+
+<hr>
+
+<div class="displayArea"></div>
+    
+</body>
+<script src="script2.js" defer></script>
+</html>
